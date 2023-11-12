@@ -1,15 +1,17 @@
 ## How can I create a new notebook?
 
 - Access your project
-- Click _New asset_ in the navigation bar
-![](./screenshots/1.png)
-- Choose _Jupyter notebook editor_ as asset type
-![](./screenshots/2.png)
+- On the Assets tab, click _New task_ in the navigation bar
+![image](https://github.com/ellenhvn/hhz-artificial-intelligence-vl-ws23/assets/31096594/c30b3e05-e45e-4db4-a07c-912cf916826a)
+
+- Choose _Work with data and models in Python or R notebooks_ as asset type
+![image](https://github.com/ellenhvn/hhz-artificial-intelligence-vl-ws23/assets/31096594/43ec051f-e088-4463-80db-b4edf818183b)
+
 - You can choose to create a new empty notebook, or create a notebook from an existing file or URL. The shown runtime with 1vCPU and 4GB RAM offers enough resources to work through the exercises (choose the latest available version).
-![](./screenshots/3.png)
-![](./screenshots/4.png)
+![image](https://github.com/ellenhvn/hhz-artificial-intelligence-vl-ws23/assets/31096594/c6048c05-1424-4e4c-ad47-0a8fb8de233e)
+
+
 - Click _Create_ to create the notebook and instantiate the selected runtime
-![](./screenshots/5.png)
 - Once the runtime is started, you are able to edit and execute cells of the notebook
 ![](./screenshots/6.png)
 
