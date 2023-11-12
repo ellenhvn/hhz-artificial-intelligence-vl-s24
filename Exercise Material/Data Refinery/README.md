@@ -6,19 +6,15 @@ Make sure to consult the referenced (see related links at the end of this page) 
 
 ## Prerequisites
 - Kaggle Titanic data set (here: `train.csv`) available as _data asset_ in Watson Studio
-![](./screenshots/01.png)
-
 
 ## Getting Started
 In your _Watson Studio_ project 
-- open the context menu of the data asset and select _Refine_
-![](./screenshots/02.png)
-- you will see a preview of the data set
-  - while loading, only the first 50 rows are shown:
-![](./screenshots/03.png)
-  - depending on the size of your dataset you may not operate on the full data set, check the details in the bottom once loading completed for details. The titanic data set only has 891 rows and you can operate on the full data set with Data Refinery:
+- open the context menu of the data asset and select _Prepare Data_
+![image](https://github.com/ellenhvn/hhz-artificial-intelligence-vl-ws23/assets/31096594/f25788d5-2958-46ca-a029-c71d77c263b3)
+
+- depending on the size of your dataset you may not operate on the full data set, check the details in the bottom once loading completed for details. The Titanic data set only has 891 rows and you can operate on the full data set with Data Refinery:
 ![](./screenshots/04.png)
-  - on other (bigger) data sets you may only operate on a sample set of the data (current limit: 10.000), see status bar or documentation for details: 
+- on other (bigger) data sets you may only operate on a sample set of the data (current limit: 10.000), see status bar or documentation for details 
 
 
 Use the 
@@ -30,8 +26,8 @@ Use the
 
 ## Prepare Data with Data Refinery
 
-Use Data Refinery to explore and prepare the data as you previously did in the `Titanic Data Preparation` notebook. See related links for inspiration or check out the screenshot below that illustrates how split the "Name" column into "Last name", "Title", "First name" and remove rows with duplicated passenger ids.
-- ![](./screenshots/06.png)
+Use Data Refinery to explore and prepare the data as you previously did in the `Titanic Data Preparation` notebook. See related links for inspiration or check out the screenshot below that illustrates splitting the "Name" column into "Last name", "Title", "First name" .
+![image](https://github.com/ellenhvn/hhz-artificial-intelligence-vl-ws23/assets/31096594/a37ea98d-9ef1-4860-a2b5-22cc4b3a9b3d)
 
 
  Once you're done, you can create a job that runs the transformation steps on the entire data set and store the resulting file as a project asset that you can process further (e.g. with Python in a notebook):
