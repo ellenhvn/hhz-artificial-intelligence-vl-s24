@@ -27,7 +27,8 @@ Use the
 ## Prepare Data with Data Refinery
 
 Use Data Refinery to explore and prepare the data as you previously did in the `Titanic Data Preparation` notebook. See related links for inspiration or check out the screenshot below that illustrates splitting the "Name" column into "Last name", "Title", "First name" .
-![image](https://github.com/ellenhvn/hhz-artificial-intelligence-vl-ws23/assets/31096594/a37ea98d-9ef1-4860-a2b5-22cc4b3a9b3d)
+
+![image](https://github.com/ellenhvn/hhz-artificial-intelligence-vl-s24/assets/31096594/5fd8cf90-7c40-4c97-9f25-c6012de8220d)
 
 
  Once you're done, you can create a job that runs the transformation steps on the entire data set and store the resulting file as a project asset that you can process further (e.g. with Python in a notebook):
