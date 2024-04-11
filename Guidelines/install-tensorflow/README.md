@@ -5,16 +5,16 @@
 
 ### Steps
 
-We recommend creating a new Conda environment for this exercise using Python 3.9 as this has been tested with Python 3.9
+We recommend creating a new Conda environment for this exercise using Python 3.9, 3.10 or 3.11 as this has been tested with these Python versions. (We do not recommend Python 3.12)
 
 
-1. Create a new Conda environment with matplotlib, scikit-learn and notebook using the latest Python version: hhz-tf-py39
+1. Create a new Conda environment with matplotlib, scikit-learn and notebook using one of the mentioned Python versions: hhz-tf-py39
 
 In addition, follow these steps to install tensorflow and tensorflow-datasets in your environment:
 
 ### Install tensorflow
 
-1. Install the latest version of tensorflow using Conda in the Anaconda navigator (2.9.1)
+1. Install the latest version of tensorflow using Conda in the Anaconda navigator (e.g. 2.9.1)
 ![](./screenshots/2.png)
 
 2. Open your notebook and check the installed versions (if any)
