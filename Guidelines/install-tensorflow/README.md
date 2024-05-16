@@ -16,11 +16,11 @@ We recommend creating a new Conda environment for this exercise using Python 3.1
 1. Open a notebook and install tensorflow and other required libraries via *pip* by executing code cells below:
 ```python
 # pinned to latest versions as per May 2024
-pip install tensorflow==2.16.1
-pip install tensorflow-datasets==4.9.4
-pip install tensorflow-hub==0.16.1
-pip install matplotlib==3.8.4
-pip install ipywidgets==8.1.2
+! pip install tensorflow==2.16.1
+! pip install tensorflow-datasets==4.9.4
+! pip install tensorflow-hub==0.16.1
+! pip install matplotlib==3.8.4
+! pip install ipywidgets==8.1.2
 ```
 2. Restart your kernel (via Kernel > Restart)
 3. Check the installed Tensorflow versions
